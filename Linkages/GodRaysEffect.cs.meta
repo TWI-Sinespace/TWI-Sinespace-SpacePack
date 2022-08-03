@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: e6efce13809d5b74fadc44286aad101c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - RayMaterial: {fileID: 2100000, guid: 16e51b4ee9c40e9418f606a2939638b6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}

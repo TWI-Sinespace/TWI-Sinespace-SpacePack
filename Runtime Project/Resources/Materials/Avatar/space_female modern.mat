@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: space_female modern
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fff7acfc375702d4aa6aac7ded369f79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 959f8e285c01729448d32ff3f6dd7499, type: 3}
+        m_Scale: {x: 90, y: 90}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 53014fe1f0bbba2418338e7b9c6b4589, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 96ce3ef2b313ec842beb953afbc81a30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PoresNormal:
+        m_Texture: {fileID: 2800000, guid: c2b543d2e921d954d965f1c2b04cf15b, type: 3}
+        m_Scale: {x: 200, y: 200}
+        m_Offset: {x: 0, y: 0}
+    - _PoresTex:
+        m_Texture: {fileID: 2800000, guid: 1a3f4d635fde5e14d95d4fe578c35c9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: 7d8094ba26575f64c9693371cb74e1a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 2800000, guid: 7d8094ba26575f64c9693371cb74e1a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CornerSmoothness: 7
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DetailPower: 1.76
+    - _DstBlend: 0
+    - _EdgeLength: 15
+    - _GlossAmount: 1
+    - _GlossMapScale: 0.3
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Mode: 0
+    - _NormalPower: 0.8
+    - _NormalPower2: 1
+    - _NormalPower3: 1.42
+    - _Occlusion: 3.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Phong: 0.2
+    - _PoresPower: 0.86
+    - _RimHDR: 8
+    - _RimPower: 4
+    - _SSS: 3.5
+    - _Shininess: 0.8
+    - _SmoothPower: 2
+    - _SmoothSubPower: 4
+    - _Smoothness: 0.7
+    - _SmoothnessTextureChannel: 0
+    - _SpecAmount: 0.05
+    - _SpecBoost: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LoadingColor: {r: 0.1523414, g: 0.58008546, b: 0.99607843, a: 0}
+    - _SpecColor: {r: 0.4117647, g: 0.4117647, b: 0.4117647, a: 1}

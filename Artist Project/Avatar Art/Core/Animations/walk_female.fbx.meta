@@ -1,0 +1,2116 @@
+fileFormatVersion: 2
+guid: 883a2861b738dd040a8b125c11b80e35
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip001 R Finger01
+    100002: Bip001 L Finger2
+    100004: Bip001 L Finger4
+    100006: Bip001 L UpperArm
+    100008: Bip001 R Finger2
+    100010: Bip001 L Finger41
+    100012: Bip001 R Finger32
+    100014: Bip001 L Finger02
+    100016: Bip001
+    100018: Bip001 L Finger11
+    100020: Bip001 R Clavicle
+    100022: Bip001 L Finger01
+    100024: Bip001 L Clavicle
+    100026: Bip001 R Finger42
+    100028: Bip001 R Finger4
+    100030: Bip001 R Finger21
+    100032: Bip001 R Finger41
+    100034: Bip001 R Foot
+    100036: Bip001 L Finger32
+    100038: Bip001 Spine
+    100040: Bip001 Pelvis
+    100042: Bip001 R Finger11
+    100044: Bip001 L Finger3
+    100046: Bip001 R UpperArm
+    100048: Bip001 L Finger42
+    100050: Bip001 R Finger1
+    100052: Bip001 R Finger02
+    100054: Bip001 L Forearm
+    100056: Bip001 L Finger21
+    100058: Bip001 L Calf
+    100060: Bip001 Head
+    100062: Bip001 R Finger0
+    100064: Bip001 Neck
+    100066: Bip001 Spine1
+    100068: Bip001 R Finger31
+    100070: Bip001 R Finger22
+    100072: Bip001 R Forearm
+    100074: Bip001 R Thigh
+    100076: Bip001 R Finger12
+    100078: Bip001 R Hand
+    100080: Bip001 L Finger0
+    100082: Bip001 L Finger31
+    100084: Bip001 L Thigh
+    100086: //RootNode
+    100088: Bip001 L Foot
+    100090: Bip001 R Calf
+    100092: Bip001 R Finger3
+    100094: Bip001 L Toe0
+    100096: Bip001 L Finger12
+    100098: Bip001 L Hand
+    100100: Bip001 R Toe0
+    100102: Bip001 L Finger22
+    100104: Bip001 L Finger1
+    100106: 5
+    100108: Character_Ctrl:ChestEndEffector 1
+    100110: Character_Ctrl:ChestOriginEffector 1
+    100112: Character_Ctrl:Head 1
+    100114: Character_Ctrl:HeadEffector 1
+    100116: Character_Ctrl:Hips 1
+    100118: Character_Ctrl:HipsEffector 1
+    100120: Character_Ctrl:LeftAnkleEffector 1
+    100122: Character_Ctrl:LeftArm 1
+    100124: Character_Ctrl:LeftElbowEffector 1
+    100126: Character_Ctrl:LeftFoot 1
+    100128: Character_Ctrl:LeftForeArm 1
+    100130: Character_Ctrl:LeftHand 1
+    100132: Character_Ctrl:LeftHipEffector 1
+    100134: Character_Ctrl:LeftKneeEffector 1
+    100136: Character_Ctrl:LeftLeg 1
+    100138: Character_Ctrl:LeftShoulderEffector 1
+    100140: Character_Ctrl:LeftUpLeg 1
+    100142: Character_Ctrl:LeftWristEffector 1
+    100144: Character_Ctrl:Reference 1
+    100146: Character_Ctrl:RightAnkleEffector 1
+    100148: Character_Ctrl:RightArm 1
+    100150: Character_Ctrl:RightElbowEffector 1
+    100152: Character_Ctrl:RightFoot 1
+    100154: Character_Ctrl:RightForeArm 1
+    100156: Character_Ctrl:RightHand 1
+    100158: Character_Ctrl:RightHipEffector 1
+    100160: Character_Ctrl:RightKneeEffector 1
+    100162: Character_Ctrl:RightLeg 1
+    100164: Character_Ctrl:RightShoulderEffector 1
+    100166: Character_Ctrl:RightUpLeg 1
+    100168: Character_Ctrl:RightWristEffector 1
+    100170: Character_Ctrl:Spine 1
+    100172: Dummy Buns
+    100174: Dummy L Calf
+    100176: Dummy L Forearm
+    100178: Dummy L Thigh
+    100180: Dummy L UpperArm
+    100182: Dummy Neck
+    100184: Dummy R Calf
+    100186: Dummy R Forearm
+    100188: Dummy R Thigh
+    100190: Dummy R UpperArm
+    100192: Dummy Tummy
+    100194: Dummy_chest
+    100196: Dummy_L_breast
+    100198: Dummy_R_breast
+    100200: eye_L
+    100202: eye_R
+    100204: femalebody
+    100206: head
+    100208: lash
+    100210: new female_Ctrl 1:LeftShoulderEffector
+    100212: new female_Ctrl 1:RightShoulderEffector
+    100214: new female_Ctrl:ChestEndEffector
+    100216: new female_Ctrl:ChestOriginEffector
+    100218: new female_Ctrl:Head
+    100220: new female_Ctrl:HeadEffector
+    100222: new female_Ctrl:Hips
+    100224: new female_Ctrl:HipsEffector
+    100226: new female_Ctrl:LeftAnkleEffector
+    100228: new female_Ctrl:LeftArm
+    100230: new female_Ctrl:LeftElbowEffector
+    100232: new female_Ctrl:LeftFoot
+    100234: new female_Ctrl:LeftFootEffector
+    100236: new female_Ctrl:LeftForeArm
+    100238: new female_Ctrl:LeftHand
+    100240: new female_Ctrl:LeftHandIndex1
+    100242: new female_Ctrl:LeftHandIndex2
+    100244: new female_Ctrl:LeftHandIndex3
+    100246: new female_Ctrl:LeftHandIndexEffector
+    100248: new female_Ctrl:LeftHandMiddle1
+    100250: new female_Ctrl:LeftHandMiddle2
+    100252: new female_Ctrl:LeftHandMiddle3
+    100254: new female_Ctrl:LeftHandMiddleEffector
+    100256: new female_Ctrl:LeftHandPinky1
+    100258: new female_Ctrl:LeftHandPinky2
+    100260: new female_Ctrl:LeftHandPinky3
+    100262: new female_Ctrl:LeftHandPinkyEffector
+    100264: new female_Ctrl:LeftHandRing1
+    100266: new female_Ctrl:LeftHandRing2
+    100268: new female_Ctrl:LeftHandRing3
+    100270: new female_Ctrl:LeftHandRingEffector
+    100272: new female_Ctrl:LeftHandThumb1
+    100274: new female_Ctrl:LeftHandThumb2
+    100276: new female_Ctrl:LeftHandThumb3
+    100278: new female_Ctrl:LeftHandThumbEffector
+    100280: new female_Ctrl:LeftHipEffector
+    100282: new female_Ctrl:LeftKneeEffector
+    100284: new female_Ctrl:LeftLeg
+    100286: new female_Ctrl:LeftShoulder
+    100288: new female_Ctrl:LeftShoulderEffector
+    100290: new female_Ctrl:LeftToeBase
+    100292: new female_Ctrl:LeftUpLeg
+    100294: new female_Ctrl:LeftWristEffector
+    100296: new female_Ctrl:Neck
+    100298: new female_Ctrl:Reference
+    100300: new female_Ctrl:RightAnkleEffector
+    100302: new female_Ctrl:RightArm
+    100304: new female_Ctrl:RightElbowEffector
+    100306: new female_Ctrl:RightFoot
+    100308: new female_Ctrl:RightFootEffector
+    100310: new female_Ctrl:RightForeArm
+    100312: new female_Ctrl:RightHand
+    100314: new female_Ctrl:RightHandIndex1
+    100316: new female_Ctrl:RightHandIndex2
+    100318: new female_Ctrl:RightHandIndex3
+    100320: new female_Ctrl:RightHandIndexEffector
+    100322: new female_Ctrl:RightHandMiddle1
+    100324: new female_Ctrl:RightHandMiddle2
+    100326: new female_Ctrl:RightHandMiddle3
+    100328: new female_Ctrl:RightHandMiddleEffector
+    100330: new female_Ctrl:RightHandPinky1
+    100332: new female_Ctrl:RightHandPinky2
+    100334: new female_Ctrl:RightHandPinky3
+    100336: new female_Ctrl:RightHandPinkyEffector
+    100338: new female_Ctrl:RightHandRing1
+    100340: new female_Ctrl:RightHandRing2
+    100342: new female_Ctrl:RightHandRing3
+    100344: new female_Ctrl:RightHandRingEffector
+    100346: new female_Ctrl:RightHandThumb1
+    100348: new female_Ctrl:RightHandThumb2
+    100350: new female_Ctrl:RightHandThumb3
+    100352: new female_Ctrl:RightHandThumbEffector
+    100354: new female_Ctrl:RightHipEffector
+    100356: new female_Ctrl:RightKneeEffector
+    100358: new female_Ctrl:RightLeg
+    100360: new female_Ctrl:RightShoulder
+    100362: new female_Ctrl:RightShoulderEffector
+    100364: new female_Ctrl:RightToeBase
+    100366: new female_Ctrl:RightUpLeg
+    100368: new female_Ctrl:RightWristEffector
+    100370: new female_Ctrl:Spine
+    100372: new female_Ctrl:Spine1
+    100374: old male char with female trials:abdomen
+    100376: old male char with female trials:Camera
+    100378: old male char with female trials:Camera Interest
+    100380: old male char with female trials:Character_Ctrl:ChestEndEffector
+    100382: old male char with female trials:Character_Ctrl:ChestOriginEffector
+    100384: old male char with female trials:Character_Ctrl:Head
+    100386: old male char with female trials:Character_Ctrl:HeadEffector
+    100388: old male char with female trials:Character_Ctrl:Hips
+    100390: old male char with female trials:Character_Ctrl:HipsEffector
+    100392: old male char with female trials:Character_Ctrl:LeftAnkleEffector
+    100394: old male char with female trials:Character_Ctrl:LeftArm
+    100396: old male char with female trials:Character_Ctrl:LeftElbowEffector
+    100398: old male char with female trials:Character_Ctrl:LeftFoot
+    100400: old male char with female trials:Character_Ctrl:LeftForeArm
+    100402: old male char with female trials:Character_Ctrl:LeftHand
+    100404: old male char with female trials:Character_Ctrl:LeftHipEffector
+    100406: old male char with female trials:Character_Ctrl:LeftKneeEffector
+    100408: old male char with female trials:Character_Ctrl:LeftLeg
+    100410: old male char with female trials:Character_Ctrl:LeftShoulderEffector
+    100412: old male char with female trials:Character_Ctrl:LeftUpLeg
+    100414: old male char with female trials:Character_Ctrl:LeftWristEffector
+    100416: old male char with female trials:Character_Ctrl:Reference
+    100418: old male char with female trials:Character_Ctrl:RightAnkleEffector
+    100420: old male char with female trials:Character_Ctrl:RightArm
+    100422: old male char with female trials:Character_Ctrl:RightElbowEffector
+    100424: old male char with female trials:Character_Ctrl:RightFoot
+    100426: old male char with female trials:Character_Ctrl:RightForeArm
+    100428: old male char with female trials:Character_Ctrl:RightHand
+    100430: old male char with female trials:Character_Ctrl:RightHipEffector
+    100432: old male char with female trials:Character_Ctrl:RightKneeEffector
+    100434: old male char with female trials:Character_Ctrl:RightLeg
+    100436: old male char with female trials:Character_Ctrl:RightShoulderEffector
+    100438: old male char with female trials:Character_Ctrl:RightUpLeg
+    100440: old male char with female trials:Character_Ctrl:RightWristEffector
+    100442: old male char with female trials:Character_Ctrl:Spine
+    100444: old male char with female trials:chest
+    100446: old male char with female trials:head
+    100448: old male char with female trials:head 1
+    100450: old male char with female trials:head 10
+    100452: old male char with female trials:head 11
+    100454: old male char with female trials:head 12
+    100456: old male char with female trials:head 13
+    100458: old male char with female trials:head 14
+    100460: old male char with female trials:head 2
+    100462: old male char with female trials:head 3
+    100464: old male char with female trials:head 4
+    100466: old male char with female trials:head 5
+    100468: old male char with female trials:head 6
+    100470: old male char with female trials:head 7
+    100472: old male char with female trials:head 8
+    100474: old male char with female trials:head 9
+    100476: old male char with female trials:head_End
+    100478: old male char with female trials:head_End 1
+    100480: old male char with female trials:head_End 10
+    100482: old male char with female trials:head_End 11
+    100484: old male char with female trials:head_End 12
+    100486: old male char with female trials:head_End 13
+    100488: old male char with female trials:head_End 14
+    100490: old male char with female trials:head_End 2
+    100492: old male char with female trials:head_End 3
+    100494: old male char with female trials:head_End 4
+    100496: old male char with female trials:head_End 5
+    100498: old male char with female trials:head_End 6
+    100500: old male char with female trials:head_End 7
+    100502: old male char with female trials:head_End 8
+    100504: old male char with female trials:head_End 9
+    100506: old male char with female trials:hip
+    100508: old male char with female trials:l_Finge72
+    100510: old male char with female trials:l_Finger5
+    100512: old male char with female trials:l_Finger51
+    100514: old male char with female trials:l_Finger52
+    100516: old male char with female trials:l_Finger53
+    100518: old male char with female trials:l_Finger6
+    100520: old male char with female trials:l_Finger61
+    100522: old male char with female trials:l_Finger62
+    100524: old male char with female trials:l_Finger63
+    100526: old male char with female trials:l_Finger7
+    100528: old male char with female trials:l_Finger71
+    100530: old male char with female trials:l_Finger72
+    100532: old male char with female trials:l_Finger73
+    100534: old male char with female trials:l_Finger74
+    100536: old male char with female trials:l_Finger75
+    100538: old male char with female trials:l_Finger8
+    100540: old male char with female trials:l_Finger81
+    100542: old male char with female trials:l_Finger82
+    100544: old male char with female trials:l_Finger83
+    100546: old male char with female trials:l_Finger9
+    100548: old male char with female trials:l_Finger91
+    100550: old male char with female trials:l_Finger92
+    100552: old male char with female trials:l_Finger93
+    100554: old male char with female trials:lCollar
+    100556: old male char with female trials:LeftFinger01
+    100558: old male char with female trials:LeftFinger02
+    100560: old male char with female trials:LeftFinger03
+    100562: old male char with female trials:LeftFinger11
+    100564: old male char with female trials:LeftFinger12
+    100566: old male char with female trials:LeftFinger13
+    100568: old male char with female trials:LeftFinger21
+    100570: old male char with female trials:LeftFinger22
+    100572: old male char with female trials:LeftFinger23
+    100574: old male char with female trials:LeftFinger31
+    100576: old male char with female trials:LeftFinger32
+    100578: old male char with female trials:LeftFinger33
+    100580: old male char with female trials:LeftFinger41
+    100582: old male char with female trials:LeftFinger42
+    100584: old male char with female trials:LeftFinger43
+    100586: old male char with female trials:LeftFinger44
+    100588: old male char with female trials:LeftFinger45
+    100590: old male char with female trials:LeftFinger46
+    100592: old male char with female trials:LeftFinger47
+    100594: old male char with female trials:LeftFinger48
+    100596: old male char with female trials:lfinger01
+    100598: old male char with female trials:lfinger02
+    100600: old male char with female trials:lfinger03
+    100602: old male char with female trials:lfinger11
+    100604: old male char with female trials:lfinger12
+    100606: old male char with female trials:lfinger13
+    100608: old male char with female trials:lfinger21
+    100610: old male char with female trials:lfinger22
+    100612: old male char with female trials:lfinger23
+    100614: old male char with female trials:lfinger31
+    100616: old male char with female trials:lfinger32
+    100618: old male char with female trials:lfinger33
+    100620: old male char with female trials:lfinger41
+    100622: old male char with female trials:lfinger42
+    100624: old male char with female trials:lfinger43
+    100626: old male char with female trials:lfinger44
+    100628: old male char with female trials:lfinger45
+    100630: old male char with female trials:lfinger46
+    100632: old male char with female trials:lfinger47
+    100634: old male char with female trials:lfinger48
+    100636: old male char with female trials:lFoot
+    100638: old male char with female trials:lFoot_End
+    100640: old male char with female trials:lForeArm
+    100642: old male char with female trials:lHand
+    100644: old male char with female trials:lHand_End
+    100646: old male char with female trials:lShin
+    100648: old male char with female trials:lShldr
+    100650: old male char with female trials:lThigh
+    100652: old male char with female trials:neck
+    100654: old male char with female trials:polySurface0
+    100656: old male char with female trials:polySurface1
+    100658: old male char with female trials:polySurface10
+    100660: old male char with female trials:polySurface11
+    100662: old male char with female trials:polySurface12
+    100664: old male char with female trials:polySurface13
+    100666: old male char with female trials:polySurface14
+    100668: old male char with female trials:polySurface15
+    100670: old male char with female trials:polySurface16
+    100672: old male char with female trials:polySurface17
+    100674: old male char with female trials:polySurface18
+    100676: old male char with female trials:polySurface19
+    100678: old male char with female trials:polySurface2
+    100680: old male char with female trials:polySurface20
+    100682: old male char with female trials:polySurface21
+    100684: old male char with female trials:polySurface22
+    100686: old male char with female trials:polySurface23
+    100688: old male char with female trials:polySurface3
+    100690: old male char with female trials:polySurface4
+    100692: old male char with female trials:polySurface5
+    100694: old male char with female trials:polySurface6
+    100696: old male char with female trials:polySurface7
+    100698: old male char with female trials:polySurface8
+    100700: old male char with female trials:polySurface9
+    100702: old male char with female trials:r_Finger0
+    100704: old male char with female trials:r_Finger01
+    100706: old male char with female trials:r_Finger02
+    100708: old male char with female trials:r_Finger03
+    100710: old male char with female trials:r_Finger1
+    100712: old male char with female trials:r_Finger11
+    100714: old male char with female trials:r_Finger12
+    100716: old male char with female trials:r_Finger13
+    100718: old male char with female trials:r_Finger2
+    100720: old male char with female trials:r_Finger21
+    100722: old male char with female trials:r_Finger22
+    100724: old male char with female trials:r_Finger23
+    100726: old male char with female trials:r_Finger3
+    100728: old male char with female trials:r_Finger31
+    100730: old male char with female trials:r_Finger32
+    100732: old male char with female trials:r_Finger33
+    100734: old male char with female trials:r_Finger4
+    100736: old male char with female trials:r_Finger41
+    100738: old male char with female trials:r_Finger42
+    100740: old male char with female trials:r_Finger43
+    100742: old male char with female trials:rCollar
+    100744: old male char with female trials:rfFinger21
+    100746: old male char with female trials:rfinger0
+    100748: old male char with female trials:rfinger01
+    100750: old male char with female trials:rfinger02
+    100752: old male char with female trials:rfinger03
+    100754: old male char with female trials:rfinger1
+    100756: old male char with female trials:rfinger11
+    100758: old male char with female trials:rfinger12
+    100760: old male char with female trials:rfinger13
+    100762: old male char with female trials:rfinger2
+    100764: old male char with female trials:rfinger21
+    100766: old male char with female trials:rfinger22
+    100768: old male char with female trials:rfinger23
+    100770: old male char with female trials:rfinger24
+    100772: old male char with female trials:rfinger25
+    100774: old male char with female trials:rfinger26
+    100776: old male char with female trials:rfinger27
+    100778: old male char with female trials:rfinger3
+    100780: old male char with female trials:rfinger31
+    100782: old male char with female trials:rfinger32
+    100784: old male char with female trials:rfinger33
+    100786: old male char with female trials:rfinger4
+    100788: old male char with female trials:rfinger41
+    100790: old male char with female trials:rfinger42
+    100792: old male char with female trials:rfinger43
+    100794: old male char with female trials:rFoot
+    100796: old male char with female trials:rFoot_End
+    100798: old male char with female trials:rForeArm
+    100800: old male char with female trials:rHand
+    100802: old male char with female trials:rHand_End
+    100804: old male char with female trials:RightFinger01
+    100806: old male char with female trials:RightFinger02
+    100808: old male char with female trials:RightFinger03
+    100810: old male char with female trials:RightFinger1
+    100812: old male char with female trials:RightFinger11
+    100814: old male char with female trials:RightFinger12
+    100816: old male char with female trials:RightFinger13
+    100818: old male char with female trials:RightFinger2
+    100820: old male char with female trials:RightFinger21
+    100822: old male char with female trials:RightFinger22
+    100824: old male char with female trials:RightFinger23
+    100826: old male char with female trials:RightFinger3
+    100828: old male char with female trials:RightFinger31
+    100830: old male char with female trials:RightFinger32
+    100832: old male char with female trials:RightFinger33
+    100834: old male char with female trials:RightFinger4
+    100836: old male char with female trials:RightFinger41
+    100838: old male char with female trials:RightFinger42
+    100840: old male char with female trials:RightFinger43
+    100842: old male char with female trials:RightFingerr0
+    100844: old male char with female trials:rShin
+    100846: old male char with female trials:rShldr
+    100848: old male char with female trials:rThigh
+    100850: pasted__pasted__group7
+    100852: pasted__shoes04_group
+    100854: polySurface0
+    100856: polySurface1
+    100858: polySurface10
+    100860: polySurface11
+    100862: polySurface12
+    100864: polySurface13
+    100866: polySurface14
+    100868: polySurface15
+    100870: polySurface16
+    100872: polySurface17
+    100874: polySurface18
+    100876: polySurface19
+    100878: polySurface2
+    100880: polySurface20
+    100882: polySurface21
+    100884: polySurface22
+    100886: polySurface23
+    100888: polySurface24
+    100890: polySurface25
+    100892: polySurface26
+    100894: polySurface27
+    100896: polySurface28
+    100898: polySurface29
+    100900: polySurface3
+    100902: polySurface30
+    100904: polySurface31
+    100906: polySurface32
+    100908: polySurface33
+    100910: polySurface34
+    100912: polySurface35
+    100914: polySurface36
+    100916: polySurface37
+    100918: polySurface38
+    100920: polySurface39
+    100922: polySurface4
+    100924: polySurface40
+    100926: polySurface41
+    100928: polySurface42
+    100930: polySurface43
+    100932: polySurface44
+    100934: polySurface45
+    100936: polySurface46
+    100938: polySurface47
+    100940: polySurface48
+    100942: polySurface49
+    100944: polySurface5
+    100946: polySurface50
+    100948: polySurface51
+    100950: polySurface52
+    100952: polySurface53
+    100954: polySurface54
+    100956: polySurface55
+    100958: polySurface56
+    100960: polySurface57
+    100962: polySurface58
+    100964: polySurface59
+    100966: polySurface6
+    100968: polySurface60
+    100970: polySurface61
+    100972: polySurface7
+    100974: polySurface8
+    100976: polySurface9
+    400000: Bip001 R Finger01
+    400002: Bip001 L Finger2
+    400004: Bip001 L Finger4
+    400006: Bip001 L UpperArm
+    400008: Bip001 R Finger2
+    400010: Bip001 L Finger41
+    400012: Bip001 R Finger32
+    400014: Bip001 L Finger02
+    400016: Bip001
+    400018: Bip001 L Finger11
+    400020: Bip001 R Clavicle
+    400022: Bip001 L Finger01
+    400024: Bip001 L Clavicle
+    400026: Bip001 R Finger42
+    400028: Bip001 R Finger4
+    400030: Bip001 R Finger21
+    400032: Bip001 R Finger41
+    400034: Bip001 R Foot
+    400036: Bip001 L Finger32
+    400038: Bip001 Spine
+    400040: Bip001 Pelvis
+    400042: Bip001 R Finger11
+    400044: Bip001 L Finger3
+    400046: Bip001 R UpperArm
+    400048: Bip001 L Finger42
+    400050: Bip001 R Finger1
+    400052: Bip001 R Finger02
+    400054: Bip001 L Forearm
+    400056: Bip001 L Finger21
+    400058: Bip001 L Calf
+    400060: Bip001 Head
+    400062: Bip001 R Finger0
+    400064: Bip001 Neck
+    400066: Bip001 Spine1
+    400068: Bip001 R Finger31
+    400070: Bip001 R Finger22
+    400072: Bip001 R Forearm
+    400074: Bip001 R Thigh
+    400076: Bip001 R Finger12
+    400078: Bip001 R Hand
+    400080: Bip001 L Finger0
+    400082: Bip001 L Finger31
+    400084: Bip001 L Thigh
+    400086: //RootNode
+    400088: Bip001 L Foot
+    400090: Bip001 R Calf
+    400092: Bip001 R Finger3
+    400094: Bip001 L Toe0
+    400096: Bip001 L Finger12
+    400098: Bip001 L Hand
+    400100: Bip001 R Toe0
+    400102: Bip001 L Finger22
+    400104: Bip001 L Finger1
+    400106: 5
+    400108: Character_Ctrl:ChestEndEffector 1
+    400110: Character_Ctrl:ChestOriginEffector 1
+    400112: Character_Ctrl:Head 1
+    400114: Character_Ctrl:HeadEffector 1
+    400116: Character_Ctrl:Hips 1
+    400118: Character_Ctrl:HipsEffector 1
+    400120: Character_Ctrl:LeftAnkleEffector 1
+    400122: Character_Ctrl:LeftArm 1
+    400124: Character_Ctrl:LeftElbowEffector 1
+    400126: Character_Ctrl:LeftFoot 1
+    400128: Character_Ctrl:LeftForeArm 1
+    400130: Character_Ctrl:LeftHand 1
+    400132: Character_Ctrl:LeftHipEffector 1
+    400134: Character_Ctrl:LeftKneeEffector 1
+    400136: Character_Ctrl:LeftLeg 1
+    400138: Character_Ctrl:LeftShoulderEffector 1
+    400140: Character_Ctrl:LeftUpLeg 1
+    400142: Character_Ctrl:LeftWristEffector 1
+    400144: Character_Ctrl:Reference 1
+    400146: Character_Ctrl:RightAnkleEffector 1
+    400148: Character_Ctrl:RightArm 1
+    400150: Character_Ctrl:RightElbowEffector 1
+    400152: Character_Ctrl:RightFoot 1
+    400154: Character_Ctrl:RightForeArm 1
+    400156: Character_Ctrl:RightHand 1
+    400158: Character_Ctrl:RightHipEffector 1
+    400160: Character_Ctrl:RightKneeEffector 1
+    400162: Character_Ctrl:RightLeg 1
+    400164: Character_Ctrl:RightShoulderEffector 1
+    400166: Character_Ctrl:RightUpLeg 1
+    400168: Character_Ctrl:RightWristEffector 1
+    400170: Character_Ctrl:Spine 1
+    400172: Dummy Buns
+    400174: Dummy L Calf
+    400176: Dummy L Forearm
+    400178: Dummy L Thigh
+    400180: Dummy L UpperArm
+    400182: Dummy Neck
+    400184: Dummy R Calf
+    400186: Dummy R Forearm
+    400188: Dummy R Thigh
+    400190: Dummy R UpperArm
+    400192: Dummy Tummy
+    400194: Dummy_chest
+    400196: Dummy_L_breast
+    400198: Dummy_R_breast
+    400200: eye_L
+    400202: eye_R
+    400204: femalebody
+    400206: head
+    400208: lash
+    400210: new female_Ctrl 1:LeftShoulderEffector
+    400212: new female_Ctrl 1:RightShoulderEffector
+    400214: new female_Ctrl:ChestEndEffector
+    400216: new female_Ctrl:ChestOriginEffector
+    400218: new female_Ctrl:Head
+    400220: new female_Ctrl:HeadEffector
+    400222: new female_Ctrl:Hips
+    400224: new female_Ctrl:HipsEffector
+    400226: new female_Ctrl:LeftAnkleEffector
+    400228: new female_Ctrl:LeftArm
+    400230: new female_Ctrl:LeftElbowEffector
+    400232: new female_Ctrl:LeftFoot
+    400234: new female_Ctrl:LeftFootEffector
+    400236: new female_Ctrl:LeftForeArm
+    400238: new female_Ctrl:LeftHand
+    400240: new female_Ctrl:LeftHandIndex1
+    400242: new female_Ctrl:LeftHandIndex2
+    400244: new female_Ctrl:LeftHandIndex3
+    400246: new female_Ctrl:LeftHandIndexEffector
+    400248: new female_Ctrl:LeftHandMiddle1
+    400250: new female_Ctrl:LeftHandMiddle2
+    400252: new female_Ctrl:LeftHandMiddle3
+    400254: new female_Ctrl:LeftHandMiddleEffector
+    400256: new female_Ctrl:LeftHandPinky1
+    400258: new female_Ctrl:LeftHandPinky2
+    400260: new female_Ctrl:LeftHandPinky3
+    400262: new female_Ctrl:LeftHandPinkyEffector
+    400264: new female_Ctrl:LeftHandRing1
+    400266: new female_Ctrl:LeftHandRing2
+    400268: new female_Ctrl:LeftHandRing3
+    400270: new female_Ctrl:LeftHandRingEffector
+    400272: new female_Ctrl:LeftHandThumb1
+    400274: new female_Ctrl:LeftHandThumb2
+    400276: new female_Ctrl:LeftHandThumb3
+    400278: new female_Ctrl:LeftHandThumbEffector
+    400280: new female_Ctrl:LeftHipEffector
+    400282: new female_Ctrl:LeftKneeEffector
+    400284: new female_Ctrl:LeftLeg
+    400286: new female_Ctrl:LeftShoulder
+    400288: new female_Ctrl:LeftShoulderEffector
+    400290: new female_Ctrl:LeftToeBase
+    400292: new female_Ctrl:LeftUpLeg
+    400294: new female_Ctrl:LeftWristEffector
+    400296: new female_Ctrl:Neck
+    400298: new female_Ctrl:Reference
+    400300: new female_Ctrl:RightAnkleEffector
+    400302: new female_Ctrl:RightArm
+    400304: new female_Ctrl:RightElbowEffector
+    400306: new female_Ctrl:RightFoot
+    400308: new female_Ctrl:RightFootEffector
+    400310: new female_Ctrl:RightForeArm
+    400312: new female_Ctrl:RightHand
+    400314: new female_Ctrl:RightHandIndex1
+    400316: new female_Ctrl:RightHandIndex2
+    400318: new female_Ctrl:RightHandIndex3
+    400320: new female_Ctrl:RightHandIndexEffector
+    400322: new female_Ctrl:RightHandMiddle1
+    400324: new female_Ctrl:RightHandMiddle2
+    400326: new female_Ctrl:RightHandMiddle3
+    400328: new female_Ctrl:RightHandMiddleEffector
+    400330: new female_Ctrl:RightHandPinky1
+    400332: new female_Ctrl:RightHandPinky2
+    400334: new female_Ctrl:RightHandPinky3
+    400336: new female_Ctrl:RightHandPinkyEffector
+    400338: new female_Ctrl:RightHandRing1
+    400340: new female_Ctrl:RightHandRing2
+    400342: new female_Ctrl:RightHandRing3
+    400344: new female_Ctrl:RightHandRingEffector
+    400346: new female_Ctrl:RightHandThumb1
+    400348: new female_Ctrl:RightHandThumb2
+    400350: new female_Ctrl:RightHandThumb3
+    400352: new female_Ctrl:RightHandThumbEffector
+    400354: new female_Ctrl:RightHipEffector
+    400356: new female_Ctrl:RightKneeEffector
+    400358: new female_Ctrl:RightLeg
+    400360: new female_Ctrl:RightShoulder
+    400362: new female_Ctrl:RightShoulderEffector
+    400364: new female_Ctrl:RightToeBase
+    400366: new female_Ctrl:RightUpLeg
+    400368: new female_Ctrl:RightWristEffector
+    400370: new female_Ctrl:Spine
+    400372: new female_Ctrl:Spine1
+    400374: old male char with female trials:abdomen
+    400376: old male char with female trials:Camera
+    400378: old male char with female trials:Camera Interest
+    400380: old male char with female trials:Character_Ctrl:ChestEndEffector
+    400382: old male char with female trials:Character_Ctrl:ChestOriginEffector
+    400384: old male char with female trials:Character_Ctrl:Head
+    400386: old male char with female trials:Character_Ctrl:HeadEffector
+    400388: old male char with female trials:Character_Ctrl:Hips
+    400390: old male char with female trials:Character_Ctrl:HipsEffector
+    400392: old male char with female trials:Character_Ctrl:LeftAnkleEffector
+    400394: old male char with female trials:Character_Ctrl:LeftArm
+    400396: old male char with female trials:Character_Ctrl:LeftElbowEffector
+    400398: old male char with female trials:Character_Ctrl:LeftFoot
+    400400: old male char with female trials:Character_Ctrl:LeftForeArm
+    400402: old male char with female trials:Character_Ctrl:LeftHand
+    400404: old male char with female trials:Character_Ctrl:LeftHipEffector
+    400406: old male char with female trials:Character_Ctrl:LeftKneeEffector
+    400408: old male char with female trials:Character_Ctrl:LeftLeg
+    400410: old male char with female trials:Character_Ctrl:LeftShoulderEffector
+    400412: old male char with female trials:Character_Ctrl:LeftUpLeg
+    400414: old male char with female trials:Character_Ctrl:LeftWristEffector
+    400416: old male char with female trials:Character_Ctrl:Reference
+    400418: old male char with female trials:Character_Ctrl:RightAnkleEffector
+    400420: old male char with female trials:Character_Ctrl:RightArm
+    400422: old male char with female trials:Character_Ctrl:RightElbowEffector
+    400424: old male char with female trials:Character_Ctrl:RightFoot
+    400426: old male char with female trials:Character_Ctrl:RightForeArm
+    400428: old male char with female trials:Character_Ctrl:RightHand
+    400430: old male char with female trials:Character_Ctrl:RightHipEffector
+    400432: old male char with female trials:Character_Ctrl:RightKneeEffector
+    400434: old male char with female trials:Character_Ctrl:RightLeg
+    400436: old male char with female trials:Character_Ctrl:RightShoulderEffector
+    400438: old male char with female trials:Character_Ctrl:RightUpLeg
+    400440: old male char with female trials:Character_Ctrl:RightWristEffector
+    400442: old male char with female trials:Character_Ctrl:Spine
+    400444: old male char with female trials:chest
+    400446: old male char with female trials:head
+    400448: old male char with female trials:head 1
+    400450: old male char with female trials:head 10
+    400452: old male char with female trials:head 11
+    400454: old male char with female trials:head 12
+    400456: old male char with female trials:head 13
+    400458: old male char with female trials:head 14
+    400460: old male char with female trials:head 2
+    400462: old male char with female trials:head 3
+    400464: old male char with female trials:head 4
+    400466: old male char with female trials:head 5
+    400468: old male char with female trials:head 6
+    400470: old male char with female trials:head 7
+    400472: old male char with female trials:head 8
+    400474: old male char with female trials:head 9
+    400476: old male char with female trials:head_End
+    400478: old male char with female trials:head_End 1
+    400480: old male char with female trials:head_End 10
+    400482: old male char with female trials:head_End 11
+    400484: old male char with female trials:head_End 12
+    400486: old male char with female trials:head_End 13
+    400488: old male char with female trials:head_End 14
+    400490: old male char with female trials:head_End 2
+    400492: old male char with female trials:head_End 3
+    400494: old male char with female trials:head_End 4
+    400496: old male char with female trials:head_End 5
+    400498: old male char with female trials:head_End 6
+    400500: old male char with female trials:head_End 7
+    400502: old male char with female trials:head_End 8
+    400504: old male char with female trials:head_End 9
+    400506: old male char with female trials:hip
+    400508: old male char with female trials:l_Finge72
+    400510: old male char with female trials:l_Finger5
+    400512: old male char with female trials:l_Finger51
+    400514: old male char with female trials:l_Finger52
+    400516: old male char with female trials:l_Finger53
+    400518: old male char with female trials:l_Finger6
+    400520: old male char with female trials:l_Finger61
+    400522: old male char with female trials:l_Finger62
+    400524: old male char with female trials:l_Finger63
+    400526: old male char with female trials:l_Finger7
+    400528: old male char with female trials:l_Finger71
+    400530: old male char with female trials:l_Finger72
+    400532: old male char with female trials:l_Finger73
+    400534: old male char with female trials:l_Finger74
+    400536: old male char with female trials:l_Finger75
+    400538: old male char with female trials:l_Finger8
+    400540: old male char with female trials:l_Finger81
+    400542: old male char with female trials:l_Finger82
+    400544: old male char with female trials:l_Finger83
+    400546: old male char with female trials:l_Finger9
+    400548: old male char with female trials:l_Finger91
+    400550: old male char with female trials:l_Finger92
+    400552: old male char with female trials:l_Finger93
+    400554: old male char with female trials:lCollar
+    400556: old male char with female trials:LeftFinger01
+    400558: old male char with female trials:LeftFinger02
+    400560: old male char with female trials:LeftFinger03
+    400562: old male char with female trials:LeftFinger11
+    400564: old male char with female trials:LeftFinger12
+    400566: old male char with female trials:LeftFinger13
+    400568: old male char with female trials:LeftFinger21
+    400570: old male char with female trials:LeftFinger22
+    400572: old male char with female trials:LeftFinger23
+    400574: old male char with female trials:LeftFinger31
+    400576: old male char with female trials:LeftFinger32
+    400578: old male char with female trials:LeftFinger33
+    400580: old male char with female trials:LeftFinger41
+    400582: old male char with female trials:LeftFinger42
+    400584: old male char with female trials:LeftFinger43
+    400586: old male char with female trials:LeftFinger44
+    400588: old male char with female trials:LeftFinger45
+    400590: old male char with female trials:LeftFinger46
+    400592: old male char with female trials:LeftFinger47
+    400594: old male char with female trials:LeftFinger48
+    400596: old male char with female trials:lfinger01
+    400598: old male char with female trials:lfinger02
+    400600: old male char with female trials:lfinger03
+    400602: old male char with female trials:lfinger11
+    400604: old male char with female trials:lfinger12
+    400606: old male char with female trials:lfinger13
+    400608: old male char with female trials:lfinger21
+    400610: old male char with female trials:lfinger22
+    400612: old male char with female trials:lfinger23
+    400614: old male char with female trials:lfinger31
+    400616: old male char with female trials:lfinger32
+    400618: old male char with female trials:lfinger33
+    400620: old male char with female trials:lfinger41
+    400622: old male char with female trials:lfinger42
+    400624: old male char with female trials:lfinger43
+    400626: old male char with female trials:lfinger44
+    400628: old male char with female trials:lfinger45
+    400630: old male char with female trials:lfinger46
+    400632: old male char with female trials:lfinger47
+    400634: old male char with female trials:lfinger48
+    400636: old male char with female trials:lFoot
+    400638: old male char with female trials:lFoot_End
+    400640: old male char with female trials:lForeArm
+    400642: old male char with female trials:lHand
+    400644: old male char with female trials:lHand_End
+    400646: old male char with female trials:lShin
+    400648: old male char with female trials:lShldr
+    400650: old male char with female trials:lThigh
+    400652: old male char with female trials:neck
+    400654: old male char with female trials:polySurface0
+    400656: old male char with female trials:polySurface1
+    400658: old male char with female trials:polySurface10
+    400660: old male char with female trials:polySurface11
+    400662: old male char with female trials:polySurface12
+    400664: old male char with female trials:polySurface13
+    400666: old male char with female trials:polySurface14
+    400668: old male char with female trials:polySurface15
+    400670: old male char with female trials:polySurface16
+    400672: old male char with female trials:polySurface17
+    400674: old male char with female trials:polySurface18
+    400676: old male char with female trials:polySurface19
+    400678: old male char with female trials:polySurface2
+    400680: old male char with female trials:polySurface20
+    400682: old male char with female trials:polySurface21
+    400684: old male char with female trials:polySurface22
+    400686: old male char with female trials:polySurface23
+    400688: old male char with female trials:polySurface3
+    400690: old male char with female trials:polySurface4
+    400692: old male char with female trials:polySurface5
+    400694: old male char with female trials:polySurface6
+    400696: old male char with female trials:polySurface7
+    400698: old male char with female trials:polySurface8
+    400700: old male char with female trials:polySurface9
+    400702: old male char with female trials:r_Finger0
+    400704: old male char with female trials:r_Finger01
+    400706: old male char with female trials:r_Finger02
+    400708: old male char with female trials:r_Finger03
+    400710: old male char with female trials:r_Finger1
+    400712: old male char with female trials:r_Finger11
+    400714: old male char with female trials:r_Finger12
+    400716: old male char with female trials:r_Finger13
+    400718: old male char with female trials:r_Finger2
+    400720: old male char with female trials:r_Finger21
+    400722: old male char with female trials:r_Finger22
+    400724: old male char with female trials:r_Finger23
+    400726: old male char with female trials:r_Finger3
+    400728: old male char with female trials:r_Finger31
+    400730: old male char with female trials:r_Finger32
+    400732: old male char with female trials:r_Finger33
+    400734: old male char with female trials:r_Finger4
+    400736: old male char with female trials:r_Finger41
+    400738: old male char with female trials:r_Finger42
+    400740: old male char with female trials:r_Finger43
+    400742: old male char with female trials:rCollar
+    400744: old male char with female trials:rfFinger21
+    400746: old male char with female trials:rfinger0
+    400748: old male char with female trials:rfinger01
+    400750: old male char with female trials:rfinger02
+    400752: old male char with female trials:rfinger03
+    400754: old male char with female trials:rfinger1
+    400756: old male char with female trials:rfinger11
+    400758: old male char with female trials:rfinger12
+    400760: old male char with female trials:rfinger13
+    400762: old male char with female trials:rfinger2
+    400764: old male char with female trials:rfinger21
+    400766: old male char with female trials:rfinger22
+    400768: old male char with female trials:rfinger23
+    400770: old male char with female trials:rfinger24
+    400772: old male char with female trials:rfinger25
+    400774: old male char with female trials:rfinger26
+    400776: old male char with female trials:rfinger27
+    400778: old male char with female trials:rfinger3
+    400780: old male char with female trials:rfinger31
+    400782: old male char with female trials:rfinger32
+    400784: old male char with female trials:rfinger33
+    400786: old male char with female trials:rfinger4
+    400788: old male char with female trials:rfinger41
+    400790: old male char with female trials:rfinger42
+    400792: old male char with female trials:rfinger43
+    400794: old male char with female trials:rFoot
+    400796: old male char with female trials:rFoot_End
+    400798: old male char with female trials:rForeArm
+    400800: old male char with female trials:rHand
+    400802: old male char with female trials:rHand_End
+    400804: old male char with female trials:RightFinger01
+    400806: old male char with female trials:RightFinger02
+    400808: old male char with female trials:RightFinger03
+    400810: old male char with female trials:RightFinger1
+    400812: old male char with female trials:RightFinger11
+    400814: old male char with female trials:RightFinger12
+    400816: old male char with female trials:RightFinger13
+    400818: old male char with female trials:RightFinger2
+    400820: old male char with female trials:RightFinger21
+    400822: old male char with female trials:RightFinger22
+    400824: old male char with female trials:RightFinger23
+    400826: old male char with female trials:RightFinger3
+    400828: old male char with female trials:RightFinger31
+    400830: old male char with female trials:RightFinger32
+    400832: old male char with female trials:RightFinger33
+    400834: old male char with female trials:RightFinger4
+    400836: old male char with female trials:RightFinger41
+    400838: old male char with female trials:RightFinger42
+    400840: old male char with female trials:RightFinger43
+    400842: old male char with female trials:RightFingerr0
+    400844: old male char with female trials:rShin
+    400846: old male char with female trials:rShldr
+    400848: old male char with female trials:rThigh
+    400850: pasted__pasted__group7
+    400852: pasted__shoes04_group
+    400854: polySurface0
+    400856: polySurface1
+    400858: polySurface10
+    400860: polySurface11
+    400862: polySurface12
+    400864: polySurface13
+    400866: polySurface14
+    400868: polySurface15
+    400870: polySurface16
+    400872: polySurface17
+    400874: polySurface18
+    400876: polySurface19
+    400878: polySurface2
+    400880: polySurface20
+    400882: polySurface21
+    400884: polySurface22
+    400886: polySurface23
+    400888: polySurface24
+    400890: polySurface25
+    400892: polySurface26
+    400894: polySurface27
+    400896: polySurface28
+    400898: polySurface29
+    400900: polySurface3
+    400902: polySurface30
+    400904: polySurface31
+    400906: polySurface32
+    400908: polySurface33
+    400910: polySurface34
+    400912: polySurface35
+    400914: polySurface36
+    400916: polySurface37
+    400918: polySurface38
+    400920: polySurface39
+    400922: polySurface4
+    400924: polySurface40
+    400926: polySurface41
+    400928: polySurface42
+    400930: polySurface43
+    400932: polySurface44
+    400934: polySurface45
+    400936: polySurface46
+    400938: polySurface47
+    400940: polySurface48
+    400942: polySurface49
+    400944: polySurface5
+    400946: polySurface50
+    400948: polySurface51
+    400950: polySurface52
+    400952: polySurface53
+    400954: polySurface54
+    400956: polySurface55
+    400958: polySurface56
+    400960: polySurface57
+    400962: polySurface58
+    400964: polySurface59
+    400966: polySurface6
+    400968: polySurface60
+    400970: polySurface61
+    400972: polySurface7
+    400974: polySurface8
+    400976: polySurface9
+    7400000: walk_female
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'Bip001 L
+      Thigh' : position error = 20.515612 mm\n\t'Bip001 R Thigh' : position error
+      = 12.480337 mm\n\t'Bip001 L Clavicle' : position error = 6.088221 mm\n\t'Bip001
+      R Clavicle' : position error = 7.960806 mm\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'walk_female' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip001 L Thigh' has translation animation that
+      will be discarded.\n\t'Bip001 L Calf' has translation animation that will be
+      discarded.\n\t'Bip001 R Thigh' has translation animation that will be discarded.\n\t'Bip001
+      L Clavicle' has translation animation that will be discarded.\n\t'Bip001 L Forearm'
+      has translation animation that will be discarded.\n\t'Bip001 R Clavicle' has
+      translation animation that will be discarded.\n\t'Bip001 R Forearm' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 2
+    animationPositionError: 2
+    animationScaleError: 2
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk_female
+      takeName: walk_female
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Dummy
+          L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Dummy L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Dummy
+          R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Dummy R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/5
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/eye_L
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/eye_R
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/lash
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001
+          L Finger01
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001
+          L Finger01/Bip001 L Finger02
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001
+          L Finger11
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001
+          L Finger11/Bip001 L Finger12
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger2/Bip001
+          L Finger21
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger2/Bip001
+          L Finger21/Bip001 L Finger22
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger3/Bip001
+          L Finger31
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger3/Bip001
+          L Finger31/Bip001 L Finger32
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger4
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger4/Bip001
+          L Finger41
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger4/Bip001
+          L Finger41/Bip001 L Finger42
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Dummy L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L
+          Clavicle/Bip001 L UpperArm/Dummy L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001
+          R Finger01
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001
+          R Finger01/Bip001 R Finger02
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001
+          R Finger11
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001
+          R Finger11/Bip001 R Finger12
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger2
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger2/Bip001
+          R Finger21
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger2/Bip001
+          R Finger21/Bip001 R Finger22
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3/Bip001
+          R Finger31
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3/Bip001
+          R Finger31/Bip001 R Finger32
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4/Bip001
+          R Finger41
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4/Bip001
+          R Finger41/Bip001 R Finger42
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Dummy R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R
+          Clavicle/Bip001 R UpperArm/Dummy R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Dummy Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Dummy_chest
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Dummy_chest/Dummy_L_breast
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Dummy_chest/Dummy_R_breast
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Dummy Tummy
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Dummy Buns
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Bip001 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: female(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001
+      parentName: 
+      position: {x: -6.333963e-10, y: 0.90362287, z: -0.014490418}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bip001 Pelvis
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.49999964, y: 0.50000036, z: 0.49999964, w: 0.50000036}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 Spine
+      parentName: 
+      position: {x: -0.093145594, y: -0.00015165447, z: 0.00000012938457}
+      rotation: {x: -0.000002080476, y: 0.000000693676, z: -0.000398159, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 L Thigh
+      parentName: 
+      position: {x: 0.093145445, y: 0.00022560834, z: 0.09315581}
+      rotation: {x: -0.018557802, y: 0.99794155, z: -0.0053591654, w: 0.061152045}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Calf
+      parentName: 
+      position: {x: -0.38833085, y: 0, z: -0.000000019073486}
+      rotation: {x: 5.895517e-10, y: -0.00000001116031, z: 0.052752193, w: 0.99860764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy L Calf
+      parentName: 
+      position: {x: -0.07082882, y: 0.00000041246415, z: -0.000000076293944}
+      rotation: {x: -0.00000046193634, y: -0.0000019310971, z: 1, w: 0.00000014901073}
+      scale: {x: -0.9999999, y: -0.99999994, z: -1.0000001}
+    - name: Bip001 L Foot
+      parentName: 
+      position: {x: -0.4033633, y: 0.0000000023841857, z: 0.000000038146972}
+      rotation: {x: -0.10286981, y: 0.06451992, z: -0.02813735, w: 0.99220127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Toe0
+      parentName: 
+      position: {x: -0.11122061, y: 0.16162154, z: -0.000000019073486}
+      rotation: {x: 0.000000015454315, y: -0.000000015454315, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Dummy L Thigh
+      parentName: 
+      position: {x: -0.060071334, y: 0.00000027298927, z: 0}
+      rotation: {x: -0.00000021234202, y: -0.0000016775448, z: 1, w: 0.0000002700832}
+      scale: {x: -0.9999999, y: -0.9999998, z: -1.0000004}
+    - name: Bip001 R Thigh
+      parentName: 
+      position: {x: 0.093145445, y: 0.00022612572, z: -0.09315581}
+      rotation: {x: -0.018557973, y: 0.99794155, z: 0.0053619347, w: -0.061152086}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Bip001 R Calf
+      parentName: 
+      position: {x: -0.38833085, y: -0.0000000023841857, z: 0}
+      rotation: {x: -3.930344e-10, y: 0.0000000074402067, z: 0.052752186, w: 0.99860764}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Dummy R Calf
+      parentName: 
+      position: {x: -0.070828855, y: 0.000000007152557, z: 0.000000038146972}
+      rotation: {x: -0.0000006775372, y: 0.0000000037252907, z: 2.5240229e-15, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Bip001 R Foot
+      parentName: 
+      position: {x: -0.40336335, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.102869794, y: -0.064519994, z: -0.028137334, w: 0.9922012}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bip001 R Toe0
+      parentName: 
+      position: {x: -0.11122061, y: 0.16162154, z: 0}
+      rotation: {x: -0.000000015454312, y: 0.000000015454312, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Dummy R Thigh
+      parentName: 
+      position: {x: -0.060071256, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.00000029639347, y: 0.0000001415611, z: -0.00000015273689, w: 1}
+      scale: {x: 0.9999999, y: 0.9999997, z: 1.0000002}
+    - name: Bip001 Spine1
+      parentName: 
+      position: {x: -0.19048133, y: -0.00017232537, z: -4.779576e-10}
+      rotation: {x: -4.0438698e-14, y: -0.0000002375925, z: 0.08566213, w: 0.99632424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Neck
+      parentName: 
+      position: {x: -0.22761947, y: 0.02296791, z: 0.000000033492796}
+      rotation: {x: 1.2813388e-14, y: 0.0000006487563, z: -0.23390405, w: 0.9722597}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Bip001 R Clavicle
+      parentName: 
+      position: {x: 0.017541809, y: -0.016831016, z: -0.028348675}
+      rotation: {x: 0.68742555, y: 0.16566887, z: 0.68742555, w: -0.16566887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 R UpperArm
+      parentName: 
+      position: {x: -0.114086255, y: 0, z: 0}
+      rotation: {x: -0.06801872, y: 0.027491027, z: 0.0026340832, w: 0.99730176}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Bip001 R Forearm
+      parentName: 
+      position: {x: -0.24298866, y: 0, z: 0}
+      rotation: {x: 0.0016379063, y: -0.017138334, z: 0.032654267, w: 0.9993184}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Dummy R Forearm
+      parentName: 
+      position: {x: -0.04854843, y: 0.00090887066, z: -0.00000015258789}
+      rotation: {x: 0.00000027567157, y: -0.00000026822084, z: 0.00000024586924, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Bip001 R Hand
+      parentName: 
+      position: {x: -0.24713969, y: -0.000000009536743, z: -0.000000076293944}
+      rotation: {x: 0.6668327, y: 0.025037562, z: 0.028782308, w: 0.7442304}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 R Finger2
+      parentName: 
+      position: {x: -0.08350929, y: -0.0035007475, z: 0.0027030944}
+      rotation: {x: -0.0021820276, y: -0.044831213, z: -0.033302944, w: 0.998437}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bip001 R Finger21
+      parentName: 
+      position: {x: -0.031275976, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.0000000035952503, y: 0.000000014003869, z: -0.009297102, w: 0.9999568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 R Finger22
+      parentName: 
+      position: {x: -0.031276014, y: -0.000000076293944, z: 0.0000000047683715}
+      rotation: {x: 0.000000013037951, y: -1.2121963e-10, z: -0.009297042, w: 0.9999568}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Bip001 R Finger1
+      parentName: 
+      position: {x: -0.085192606, y: -0.0013275909, z: 0.025369663}
+      rotation: {x: 0.0011626221, y: -0.043852687, z: -0.01743813, w: 0.99888515}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bip001 R Finger11
+      parentName: 
+      position: {x: -0.028381309, y: -0.000000076293944, z: -0.000000009536743}
+      rotation: {x: -0.000000007640978, y: -0.0000000053246265, z: -0.034884274, w: 0.9993914}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bip001 R Finger12
+      parentName: 
+      position: {x: -0.028381348, y: 0.00000015258789, z: -0.000000009536743}
+      rotation: {x: -0.0000000018597559, y: 0.000000007451301, z: -0.00038772819,
+        w: 0.99999994}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Bip001 R Finger3
+      parentName: 
+      position: {x: -0.08003563, y: 0.00040580748, z: -0.017212868}
+      rotation: {x: 0.009242725, y: -0.04930851, z: -0.02333891, w: 0.9984681}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Finger31
+      parentName: 
+      position: {x: -0.028362427, y: 0.000000076293944, z: 0.0000000047683715}
+      rotation: {x: 0.0000000029158034, y: 0.000000007612975, z: -0.009297056, w: 0.9999568}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bip001 R Finger32
+      parentName: 
+      position: {x: -0.02836235, y: 0, z: 0}
+      rotation: {x: 0.000000004613615, y: -0.000000009341968, z: -0.009297025, w: 0.9999568}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Bip001 R Finger0
+      parentName: 
+      position: {x: -0.015404663, y: 0.008161087, z: 0.03540799}
+      rotation: {x: -0.51499623, y: 0.34141466, z: 0.1756713, w: 0.76639056}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Finger01
+      parentName: 
+      position: {x: -0.03542534, y: 0, z: 0}
+      rotation: {x: 0.000000014891533, y: -5.355713e-10, z: -0.03594158, w: 0.9993539}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bip001 R Finger02
+      parentName: 
+      position: {x: -0.02927599, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.000000029225527, y: 0.000000009463509, z: 0.06812345, w: 0.9976769}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 R Finger4
+      parentName: 
+      position: {x: -0.06583309, y: 0.007927017, z: -0.03341692}
+      rotation: {x: 0.032567948, y: -0.03118322, z: -0.03670461, w: 0.9983085}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 R Finger41
+      parentName: 
+      position: {x: -0.021865882, y: 0, z: -0.0000000047683715}
+      rotation: {x: -0.0000000055703775, y: 0.0000000019145159, z: -0.009297042, w: 0.9999568}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Bip001 R Finger42
+      parentName: 
+      position: {x: -0.021865958, y: 0, z: 0}
+      rotation: {x: 3.3829606e-10, y: 0.000000002812233, z: 0.045413848, w: 0.9989683}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Dummy R UpperArm
+      parentName: 
+      position: {x: -0.057149887, y: -0.000000009536743, z: -0.000000076293944}
+      rotation: {x: 0.00000025890782, y: -0.0000004023313, z: 0.00000024400663, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000005}
+    - name: Bip001 Head
+      parentName: 
+      position: {x: -0.09996246, y: 0, z: -1.4551915e-13}
+      rotation: {x: -3.027903e-13, y: -0.00000041646194, z: 0.15015277, w: 0.98866284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 5
+      parentName: 
+      position: {x: -0.114654236, y: -0.017297102, z: 0.009336074}
+      rotation: {x: 0.70704734, y: 0.009170803, z: -0.70704734, w: 0.009170803}
+      scale: {x: 0.9980359, y: 1.0672702, z: 1.0672702}
+    - name: eye_L
+      parentName: 
+      position: {x: -0.11432678, y: 0.084069766, z: 0.034210507}
+      rotation: {x: 0.5000004, y: 0.4999996, z: -0.5000004, w: 0.4999996}
+      scale: {x: -1, y: -1, z: -1}
+    - name: eye_R
+      parentName: 
+      position: {x: -0.11432693, y: 0.08406986, z: -0.033125605}
+      rotation: {x: -0.49999976, y: 0.5000003, z: 0.49999976, w: 0.5000003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: 
+      position: {x: 1.5109171, y: 0.0010227326, z: 0.00000001255504}
+      rotation: {x: 0.7071068, y: -0.00000051700044, z: -0.7071068, w: -0.00000051700044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lash
+      parentName: 
+      position: {x: 1.5109171, y: 0.0010227158, z: 0.000000012555002}
+      rotation: {x: 0.7071068, y: -0.00000051700044, z: -0.7071068, w: -0.00000051700044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy Neck
+      parentName: 
+      position: {x: -0.045932923, y: -0.0015036011, z: 0}
+      rotation: {x: 0.51152307, y: -0.48820502, z: -0.51152307, w: -0.48820502}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Clavicle
+      parentName: 
+      position: {x: 0.017541809, y: -0.016831169, z: 0.028348641}
+      rotation: {x: 0.68742555, y: 0.16566887, z: -0.68742555, w: 0.16566887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L UpperArm
+      parentName: 
+      position: {x: -0.11408626, y: 0, z: 0}
+      rotation: {x: 0.06801905, y: -0.027488539, z: 0.0026327989, w: 0.9973018}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Bip001 L Forearm
+      parentName: 
+      position: {x: -0.24298866, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.0016377666, y: 0.017138707, z: 0.03265411, w: 0.9993185}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Dummy L Forearm
+      parentName: 
+      position: {x: -0.048548657, y: 0.00090785976, z: 0}
+      rotation: {x: -0.000000059603884, y: -0.000000536442, z: 1, w: -0.0000014193356}
+      scale: {x: -1, y: -0.9999999, z: -0.99999976}
+    - name: Bip001 L Hand
+      parentName: 
+      position: {x: -0.24713969, y: -0.000000019073486, z: 0}
+      rotation: {x: -0.6668327, y: -0.025037568, z: 0.028782293, w: 0.7442304}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 L Finger2
+      parentName: 
+      position: {x: -0.08350929, y: -0.0035007475, z: -0.0027030848}
+      rotation: {x: 0.0021820033, y: 0.044831216, z: -0.03330257, w: 0.998437}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: Bip001 L Finger21
+      parentName: 
+      position: {x: -0.031275976, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.00000000359525, y: -0.000000014003867, z: -0.009297086, w: 0.9999568}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Finger22
+      parentName: 
+      position: {x: -0.031276014, y: 0, z: -0.000000014305114}
+      rotation: {x: 0.0000000018625647, y: -1.7317116e-11, z: -0.009297056, w: 0.9999568}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bip001 L Finger1
+      parentName: 
+      position: {x: -0.085192606, y: -0.0013275909, z: -0.025369663}
+      rotation: {x: -0.0011626373, y: 0.04385271, z: -0.017438112, w: 0.99888515}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Bip001 L Finger11
+      parentName: 
+      position: {x: -0.028381271, y: -0.000000076293944, z: -0.000000009536743}
+      rotation: {x: 0.0000000016016032, y: -0.000000007511024, z: -0.03488429, w: 0.9993914}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Bip001 L Finger12
+      parentName: 
+      position: {x: -0.028381424, y: 0.000000076293944, z: 0.000000009536743}
+      rotation: {x: 0.0000000074498567, y: -0.0000000018655335, z: -0.00038771328,
+        w: 0.99999994}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Bip001 L Finger3
+      parentName: 
+      position: {x: -0.08003563, y: 0.00040580748, z: 0.017212868}
+      rotation: {x: -0.009242729, y: 0.049308296, z: -0.023338411, w: 0.9984681}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Finger31
+      parentName: 
+      position: {x: -0.02836235, y: 0.00000015258789, z: 0.000000009536743}
+      rotation: {x: 0.0000000042328234, y: -0.0000000049071804, z: -0.009297072, w: 0.9999568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger32
+      parentName: 
+      position: {x: -0.02836235, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.0000000032471619, y: -0.000000005269106, z: -0.009297057, w: 0.9999568}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bip001 L Finger0
+      parentName: 
+      position: {x: -0.015404663, y: 0.008161239, z: -0.03540799}
+      rotation: {x: 0.5149968, y: -0.3414152, z: 0.17567015, w: 0.76639026}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 L Finger01
+      parentName: 
+      position: {x: -0.035425376, y: 0, z: 0}
+      rotation: {x: -5.3557125e-10, y: -0.000000014891534, z: -0.03594158, w: 0.9993539}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger02
+      parentName: 
+      position: {x: -0.02927599, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.000000014358984, y: -0.00000000844839, z: 0.06812345, w: 0.9976769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger4
+      parentName: 
+      position: {x: -0.06583309, y: 0.007927017, z: 0.033416927}
+      rotation: {x: -0.032567468, y: 0.031184165, z: -0.03670739, w: 0.9983083}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Finger41
+      parentName: 
+      position: {x: -0.021865921, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.0000000013363137, y: 0.000000006531964, z: -0.009297027, w: 0.9999568}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bip001 L Finger42
+      parentName: 
+      position: {x: -0.021865882, y: 0, z: 0}
+      rotation: {x: 8.458354e-10, y: -0.000000008352108, z: 0.04541386, w: 0.99896824}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Dummy L UpperArm
+      parentName: 
+      position: {x: -0.057149887, y: -0.0000005149841, z: -0.00000015258789}
+      rotation: {x: 0.00000037252983, y: -0.0000005252652, z: 1, w: -0.0000016707921}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000005}
+    - name: Dummy_chest
+      parentName: 
+      position: {x: -0.10774933, y: -0.0037094497, z: -3.6379787e-14}
+      rotation: {x: 0.70708454, y: -0.005610627, z: -0.70708454, w: -0.005610627}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Dummy_R_breast
+      parentName: 
+      position: {x: 0.07495401, y: -0.07513347, z: 0.0037785338}
+      rotation: {x: 0.678412, y: 0.10617005, z: 0.15279348, w: 0.71073145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy_L_breast
+      parentName: 
+      position: {x: -0.07538579, y: -0.07513347, z: 0.0037785338}
+      rotation: {x: -0.7107314, y: 0.15279368, z: -0.106170245, w: 0.678412}
+      scale: {x: -1, y: -0.9999999, z: -1.0000001}
+    - name: Dummy Tummy
+      parentName: 
+      position: {x: -0.09533386, y: -0.0060243593, z: -0.000000076293944}
+      rotation: {x: 0.70710677, y: 0.00028151006, z: -0.70710677, w: 0.00028151006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy Buns
+      parentName: 
+      position: {x: -0.008754959, y: -0.0077995444, z: 0.00000015258789}
+      rotation: {x: 0.7071068, y: -0.00000003062095, z: -0.7071068, w: -0.00000003062095}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: femalebody
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8013bfe82c88fc64e9a70f2c730aa569,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &159376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456234}
+  - component: {fileID: 11400040}
+  - component: {fileID: 11489054}
+  - component: {fileID: 11403080}
+  - component: {fileID: 11420636}
+  m_Layer: 0
+  m_Name: Sample 1  person gesture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fc83f79cbb99a4c8c2fd660bb03723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Crystal Rose
+  Description: 
+  Participants: 1
+  IsGendered: 0
+  NominalGender: 2
+  UsesRadius: 0
+  EntryRadius: 0
+  Participating: 0
+  Looped: 1
+  ManualStart: 0
+  PlayerItemId: 0
+  preview: 0
+--- !u!114 &11489054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db510b0e29ced74c819805c128b2e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LegacyAnimationClip: {fileID: 100004, guid: b1760539ef2b74c4c863fd5659094d8a, type: 3}
+  ChildName: Camera
+  FocusName: Camera Interest
+  TweakAxis: 0
+  ForwardAxis: {x: 0, y: 0, z: 1}
+  UpAxis: {x: 0, y: 1, z: 0}
+  TweakPosition: 0
+  Offset: {x: 0, y: 0, z: 0}
+  ForwardOffset: 0
+  IgnoreRotation: 0
+  StartTime: 0
+  EndTime: 0
+--- !u!114 &11403080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b427b86cd73369478404dc0ad6ed178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationLayer: 0
+  Clip: {fileID: 7400000, guid: 71a540c7b25db4243b77f1593bda40a5, type: 3}
+  Participant: 0
+  StartTime: 0
+  FixAvatarHeight: 0
+--- !u!114 &11420636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5513f562b7975a542937afd116042bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoSetup: 1
+  Type: 3
+  CustomType: 
+  LoadingStyle: 0
+  AutoModifyShaders: 1
+  AllowTransfer: 1
+  InworldCustomisation: 0
+  Description:
+    Language: 10
+    Name: Plectrum
+    Description: Rocking single dance
+    Brand: SWE
+    Instructions: 
+    ReleaseNotes: 
+  Localised: []
+  ItemStoreIcon: {fileID: 0}
+  StoreImage1: {fileID: 0}
+  StoreImage2: {fileID: 0}
+  StoreImage3: {fileID: 0}
+  StoreImage4: {fileID: 0}
+  StoreImage5: {fileID: 0}
+  ItemInventoryIcon: {fileID: 0}
+  BrandIcon: {fileID: 0}
+  YouTubeURL: 
+  HomepageURL: 
+  NotForSale: 0
+  PriceSilver: 1000
+  PriceGold: 10
+  AllowUseInPromotions: 0
+  MaxDiscountInSales: 0
+  PreferredGender: 2
+  MaxOwned: 0
+  MaxCopiesPerItem: 0
+  Permission: 0
+  DerivationID: 0
+  DerivationAllowed: 0
+  DerivationPack: 
+  Rating: 0
+  Category: Gesture/Dances/Single Person
+  CategoryCode: 
+  ItemTags: []
+  DeveloperName: SWE
+  Copyright: "\xA92022 Your name or business name."
+  GridID: 0
+  ResumeID: 0
+  CopyrightContainsThirdParty: 0
+  CopyrightContainsThirdPartyLicensed: 0
+  CopyrightContainsThirdPartyFairUse: 0
+  TrademarksContainsThirdParty: 0
+  TrademarksContainsThirdPartyLicensed: 0
+  TrademarksContainsThirdPartyFairUse: 0
+  UniqueStatus: 1
+  ModioTemplateID: 0
+  Flags:
+    ViolenceAndGore: 0
+    Alcohol: 0
+    HorrorThemes: 0
+    IllicitDrugReferences: 0
+    ExplicitOrAdultContent: 0
+  ID: 20040

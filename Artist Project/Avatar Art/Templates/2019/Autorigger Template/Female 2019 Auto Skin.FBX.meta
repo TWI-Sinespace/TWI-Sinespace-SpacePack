@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 38ba068bb68d1b949a33287083553c1e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chest
+    100002: //RootNode
+    100004: femalebodyCloth
+    100006: Geo_grp
+    100008: Geo_grp 1
+    100010: Head
+    100012: Hips
+    100014: Jaw
+    100016: JawEND
+    100018: LeftArm
+    100020: LeftCheek
+    100022: LeftEye
+    100024: LeftEyelidLower
+    100026: LeftEyelidUpper
+    100028: LeftFoot
+    100030: LeftForeArm
+    100032: LeftForeArmTwist
+    100034: LeftHand
+    100036: LeftHandIndex1
+    100038: LeftHandIndex2
+    100040: LeftHandIndex3
+    100042: LeftHandMiddle1
+    100044: LeftHandMiddle2
+    100046: LeftHandMiddle3
+    100048: LeftHandPinky1
+    100050: LeftHandPinky2
+    100052: LeftHandPinky3
+    100054: LeftHandRing1
+    100056: LeftHandRing2
+    100058: LeftHandRing3
+    100060: LeftHandThumb1
+    100062: LeftHandThumb2
+    100064: LeftHandThumb3
+    100066: LeftInnerBrow
+    100068: LeftIOuterBrow
+    100070: LeftLeg
+    100072: LeftLipCorner
+    100074: LeftLipLower
+    100076: LeftLipUpper
+    100078: LeftNostril
+    100080: LeftShoulder
+    100082: LeftToes
+    100084: LeftUpLeg
+    100086: Neck
+    100088: Reference
+    100090: RightArm
+    100092: RightCheek
+    100094: RightEye
+    100096: RightEyelidLower
+    100098: RightEyelidUpper
+    100100: RightFoot
+    100102: RightForeArm
+    100104: RightForeArmTwist
+    100106: RightHand
+    100108: RightHandIndex1
+    100110: RightHandIndex2
+    100112: RightHandIndex3
+    100114: RightHandMiddle1
+    100116: RightHandMiddle2
+    100118: RightHandMiddle3
+    100120: RightHandPinky1
+    100122: RightHandPinky2
+    100124: RightHandPinky3
+    100126: RightHandRing1
+    100128: RightHandRing2
+    100130: RightHandRing3
+    100132: RightHandThumb1
+    100134: RightHandThumb2
+    100136: RightHandThumb3
+    100138: RightInnerBrow
+    100140: RightIOuterBrow
+    100142: RightLeg
+    100144: RightLipCorner
+    100146: RightLipLower
+    100148: RightLipUpper
+    100150: RightNostril
+    100152: RightShoulder
+    100154: RightToes
+    100156: RightUpLeg
+    100158: Spine
+    100160: TongueBack
+    100162: TongueTip
+    400000: Chest
+    400002: //RootNode
+    400004: femalebodyCloth
+    400006: Geo_grp
+    400008: Geo_grp 1
+    400010: Head
+    400012: Hips
+    400014: Jaw
+    400016: JawEND
+    400018: LeftArm
+    400020: LeftCheek
+    400022: LeftEye
+    400024: LeftEyelidLower
+    400026: LeftEyelidUpper
+    400028: LeftFoot
+    400030: LeftForeArm
+    400032: LeftForeArmTwist
+    400034: LeftHand
+    400036: LeftHandIndex1
+    400038: LeftHandIndex2
+    400040: LeftHandIndex3
+    400042: LeftHandMiddle1
+    400044: LeftHandMiddle2
+    400046: LeftHandMiddle3
+    400048: LeftHandPinky1
+    400050: LeftHandPinky2
+    400052: LeftHandPinky3
+    400054: LeftHandRing1
+    400056: LeftHandRing2
+    400058: LeftHandRing3
+    400060: LeftHandThumb1
+    400062: LeftHandThumb2
+    400064: LeftHandThumb3
+    400066: LeftInnerBrow
+    400068: LeftIOuterBrow
+    400070: LeftLeg
+    400072: LeftLipCorner
+    400074: LeftLipLower
+    400076: LeftLipUpper
+    400078: LeftNostril
+    400080: LeftShoulder
+    400082: LeftToes
+    400084: LeftUpLeg
+    400086: Neck
+    400088: Reference
+    400090: RightArm
+    400092: RightCheek
+    400094: RightEye
+    400096: RightEyelidLower
+    400098: RightEyelidUpper
+    400100: RightFoot
+    400102: RightForeArm
+    400104: RightForeArmTwist
+    400106: RightHand
+    400108: RightHandIndex1
+    400110: RightHandIndex2
+    400112: RightHandIndex3
+    400114: RightHandMiddle1
+    400116: RightHandMiddle2
+    400118: RightHandMiddle3
+    400120: RightHandPinky1
+    400122: RightHandPinky2
+    400124: RightHandPinky3
+    400126: RightHandRing1
+    400128: RightHandRing2
+    400130: RightHandRing3
+    400132: RightHandThumb1
+    400134: RightHandThumb2
+    400136: RightHandThumb3
+    400138: RightInnerBrow
+    400140: RightIOuterBrow
+    400142: RightLeg
+    400144: RightLipCorner
+    400146: RightLipLower
+    400148: RightLipUpper
+    400150: RightNostril
+    400152: RightShoulder
+    400154: RightToes
+    400156: RightUpLeg
+    400158: Spine
+    400160: TongueBack
+    400162: TongueTip
+    4300000: femalebodyCloth
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: femalebodyCloth
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert16
+    second: {fileID: 2100000, guid: 6a5c3fd046524a64ebd1eff90cc54b99, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

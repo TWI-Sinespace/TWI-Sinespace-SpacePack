@@ -1,0 +1,4 @@
+GoJiyo is developed for Godrej Industries by Sine Wave Entertainment
+Built on Phaze3D version 5.0, a Virtual World engine for Unity3d
+
+- Includes Icons made by Lorc. Available on http://game-icons.net

@@ -1,0 +1,115 @@
+// SHOW POP-OVER
+function space_showPopOverLN() {
+	// LOAD THE VIEW SIZE + SCROLL POSITION
+	space_loadScreenLN();
+
+	document.getElementById("spacepopLN").style.display = "block";
+
+	var targW = 400;
+	var targH = 40;
+
+	document.getElementById("spacepopLN").style.width = targW + "px";
+	document.getElementById("spacepopLN").style.height = targH + "px";
+	document.getElementById("spacepopLN").style.left = ((space_myWidth / 2)-(targW / 2))+"px";
+	document.getElementById("spacepopLN").style.top = ((space_myHeight / 2)-(targH / 2)+space_myScroll)+"px";
+
+	// The popunder div
+	document.getElementById("spacepopunderLN").style.display = "block";
+	document.getElementById("spacepopunderLN").style.width = space_myWidth + "px";
+	document.getElementById("spacepopunderLN").style.height = space_myHeight + "px";
+	document.getElementById("spacepopunderLN").style.top = space_myScroll+"px";
+
+	// Hide Unity
+	var players = document.getElementsByTagName('embed');
+	for(var i = 0; i < players.length; i++){
+		if(players[i].type == 'application/vnd.unity') {
+			players[i].style.visibility = 'hidden'; // Hidden
+			//players[i].parentNode.style.width = "10px";
+			//players[i].parentNode.style.height = "10px";
+		}
+	}
+}
+
+// CLOSE POP-OVER
+function space_closePopOverLN() {
+
+	window.onfocus = null;
+
+	// Show unity
+	var players = document.getElementsByTagName('embed');
+	for(var i = 0; i < players.length; i++){
+		if(players[i].type == 'application/vnd.unity') {
+			players[i].style.visibility = 'visible'; // Hidden
+			//players[i].parentNode.style.width = "100%";
+			//players[i].parentNode.style.height = "100%";
+		}
+	}
+
+	// HIDE THE DIV
+	document.getElementById("spacepopLN").style.display = "none";
+	document.getElementById("spacepopunderLN").style.display = "none";
+}
+
+// LOAD SCREEN ATTRIBUTES
+var space_myWidth = 0, space_myHeight = 0, space_myScroll = 0; space_myScrollWidth = 0; space_myScrollHeight = 0;
+function space_loadScreenLN() {
+	if (document.all) {
+		// IE
+		space_myWidth  = (document.documentElement.clientWidth) ? document.documentElement.clientWidth : document.body.clientWidth;
+		space_myHeight = (document.documentElement.clientHeight) ? document.documentElement.clientHeight : document.body.clientHeight;
+		space_myScroll = (document.documentElement.scrollTop) ? document.documentElement.scrollTop : document.body.scrollTop;
+	} else {
+		// NON-IE
+		space_myWidth = window.innerWidth;
+		space_myHeight = window.innerHeight;
+		space_myScroll = window.pageYOffset;
+	}
+	if (window.innerHeight && window.scrollMaxY) {	
+		// NON-IE
+        myScrollWidth = document.body.scrollWidth;
+		space_myScrollHeight = window.innerHeight + window.scrollMaxY;
+	} else if (document.body.scrollHeight > document.body.offsetHeight) { 
+		// IE
+		space_myScrollWidth = document.body.scrollWidth;
+		space_myScrollHeight = document.body.scrollHeight;
+	} else { 
+		// IE MAC
+		space_myScrollWidth = document.body.offsetWidth;
+		space_myScrollHeight = document.body.offsetHeight;
+	}
+}
+
+var space_openLink = "";
+
+function space_loadUrlAndClose() {
+	//window.open(space_openLink);
+
+	window.onfocus = space_closePopOverLN;
+}
+
+function space_openURL(url) {
+	space_openLink = url;
+	space_popoverLN.href = url;
+	space_popunderLN.href = url;
+	space_showPopOverLN();
+}
+
+var space_styleLN = document.createElement('style');
+space_styleLN.type = 'text/css';
+space_styleLN.innerHTML = '.gojpopoverLN { text-align: center; font-size: 16px; font-family: arial, sans, sans-serif; padding: 20px; background-color: #eaeaea; position: absolute; display: none; text-shadow: 0 1px 0 #fff; background: -o-linear-gradient(#fff, #ccc); background: -webkit-linear-gradient(#fff, #ccc); background: -moz-linear-gradient(#fff, #ccc); box-shadow: 0 3px 20px rgba(0,0,0,0.9); border-radius: 7px; border-color: #444141; border-style: solid; border-width: 3px; height: 500px; width: 728px; z-index: 2000; } .gojpopunderLN { position: absolute; display: none; background-color: #000000; opacity: 0.5; width: 100%; height: 100%; z-index: 1999 }';
+document.getElementsByTagName('head')[0].appendChild(space_styleLN);
+
+var space_popoverLN = document.createElement('a');
+space_popoverLN.className = 'gojpopoverLN';
+space_popoverLN.id = "spacepopLN";
+space_popoverLN.onclick = space_loadUrlAndClose;
+space_popoverLN.target = "_new";
+space_popoverLN.innerHTML = "Click here to continue with purchase";
+document.getElementsByTagName('body')[0].appendChild(space_popoverLN);
+
+var space_popunderLN = document.createElement('a');
+space_popunderLN.className = 'gojpopunderLN';
+space_popunderLN.id = "spacepopunderLN";
+space_popunderLN.onclick = space_loadUrlAndClose;
+space_popunderLN.target = "_new";
+document.getElementsByTagName('body')[0].appendChild(space_popunderLN);

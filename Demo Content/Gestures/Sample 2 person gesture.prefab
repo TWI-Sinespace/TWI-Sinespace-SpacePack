@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &139706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495080}
+  - component: {fileID: 11451560}
+  - component: {fileID: 11477996}
+  - component: {fileID: 11442738}
+  - component: {fileID: 11417932}
+  m_Layer: 0
+  m_Name: Sample 2 person gesture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11451560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fc83f79cbb99a4c8c2fd660bb03723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Greeting 1
+  Description: 
+  Participants: 2
+  IsGendered: 0
+  NominalGender: 2
+  UsesRadius: 1
+  EntryRadius: 4
+  Participating: 0
+  Looped: 0
+  ManualStart: 0
+  PlayerItemId: 0
+  preview: 0
+--- !u!114 &11477996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db510b0e29ced74c819805c128b2e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LegacyAnimationClip: {fileID: 100000, guid: 513a096405255604390a9ddf7fc64b53, type: 3}
+  ChildName: Camera
+  FocusName: Camera Interest
+  TweakAxis: 0
+  ForwardAxis: {x: 0, y: 0, z: 1}
+  UpAxis: {x: 0, y: 1, z: 0}
+  TweakPosition: 0
+  Offset: {x: 0, y: 0, z: 0}
+  ForwardOffset: 0
+  IgnoreRotation: 0
+  StartTime: 0
+  EndTime: 0
+--- !u!114 &11442738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e31dde15ff82144f815d6434f679a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClipA: {fileID: 7400000, guid: 0041e574cb39a634087d6ced88ec9bc0, type: 3}
+  ClipB: {fileID: 7400000, guid: e99023a523388c849964874c646237a8, type: 3}
+  DistanceApart: 0
+  FixAvatarHeights: 1
+  StartTime: 0
+  IKTargets: []
+--- !u!114 &11417932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5513f562b7975a542937afd116042bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoSetup: 1
+  Type: 3
+  CustomType: 
+  LoadingStyle: 0
+  AutoModifyShaders: 1
+  AllowTransfer: 1
+  InworldCustomisation: 0
+  Description:
+    Language: 10
+    Name: Fist bump - 2 person greeting
+    Description: A great way to greet a friend
+    Brand: SWE Gesture
+    Instructions: 
+    ReleaseNotes: 
+  Localised: []
+  ItemStoreIcon: {fileID: 0}
+  StoreImage1: {fileID: 0}
+  StoreImage2: {fileID: 0}
+  StoreImage3: {fileID: 0}
+  StoreImage4: {fileID: 0}
+  StoreImage5: {fileID: 0}
+  ItemInventoryIcon: {fileID: 0}
+  BrandIcon: {fileID: 0}
+  YouTubeURL: 
+  HomepageURL: 
+  NotForSale: 1
+  PriceSilver: 1000
+  PriceGold: 10
+  AllowUseInPromotions: 0
+  MaxDiscountInSales: 0
+  PreferredGender: 2
+  MaxOwned: 0
+  MaxCopiesPerItem: 0
+  Permission: 0
+  DerivationID: 0
+  DerivationAllowed: 0
+  DerivationPack: 
+  Rating: 0
+  Category: Gesture/Emote/Two Person
+  CategoryCode: 
+  ItemTags: []
+  DeveloperName: Sine Wave
+  Copyright: "\xA92022 Your name or business name."
+  GridID: 0
+  ResumeID: 0
+  CopyrightContainsThirdParty: 0
+  CopyrightContainsThirdPartyLicensed: 0
+  CopyrightContainsThirdPartyFairUse: 0
+  TrademarksContainsThirdParty: 0
+  TrademarksContainsThirdPartyLicensed: 0
+  TrademarksContainsThirdPartyFairUse: 0
+  UniqueStatus: 1
+  ModioTemplateID: 0
+  Flags:
+    ViolenceAndGore: 0
+    Alcohol: 0
+    HorrorThemes: 0
+    IllicitDrugReferences: 0
+    ExplicitOrAdultContent: 0
+  ID: 20027
